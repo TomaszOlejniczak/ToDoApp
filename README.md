@@ -23,7 +23,7 @@ Project is created with:
 * JavaScript (ECMAScript 6)
 
 ## Tools
-The following tools were used
+The following tools were used:
 * React
 * NPM
 * Git
