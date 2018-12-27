@@ -1,4 +1,4 @@
-## Photo Time
+## ToDo App
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Tools](#tools)
