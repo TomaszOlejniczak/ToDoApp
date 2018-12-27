@@ -3,6 +3,7 @@
 * [Technologies](#technologies)
 * [Tools](#tools)
 * [Working Page](#working-page)
+* [Screen](#screen)
 
 ## General info
 ToDo application allows to save your task list.
@@ -29,3 +30,6 @@ The following tools were used:
 * Git
 * Webpack
 * Babel
+
+## Screen 
+![Screen](https://github.com/TomaszOlejniczak/ToDoApp/blob/master/images/ToDoApp.jpg)
