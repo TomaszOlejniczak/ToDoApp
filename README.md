@@ -9,6 +9,7 @@ ToDo application allows to save your task list.
 You can add new and remove. You can also update your progress.
 
 How to run:
+
 npm install
 
 npm start - script running
