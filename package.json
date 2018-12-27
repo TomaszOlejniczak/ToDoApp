@@ -12,12 +12,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/achromik/ToDo-App.git"
+    "url": "git+https://github.com/Traxan/learning-git-2.git"
   },
   "bugs": {
-    "url": "https://github.com/achromik/ToDo-App/issues"
+    "url": "https://github.com/Traxan/learning-git-2/issues"
   },
-  "homepage": "https://github.com/achromik/ToDo-App#readme",
+  "homepage": "https://github.com/Traxan/learning-git-2#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
