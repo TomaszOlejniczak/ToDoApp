@@ -10,6 +10,7 @@ You can add new and remove. You can also update your progress.
 
 How to run:
 npm install
+
 npm start - script running
 
 http://localhost:9000/
