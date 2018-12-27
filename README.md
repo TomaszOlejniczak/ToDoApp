@@ -14,7 +14,7 @@ npm install
 
 npm start - script running
 
-http://localhost:9000/
+http://localhost:8080/
 
 ## Technologies
 Project is created with:
