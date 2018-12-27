@@ -1,0 +1,80 @@
+.Todo {
+    border: 2px solid rgba(170, 170, 170, 0.6);
+    margin: 5px 0px;
+    background-color: rgba(128, 128, 128, 0.7);
+    position: relative;
+    text-align: left;
+}
+
+.done {
+    background-color: rgba(12, 150, 18, 0.7);
+}
+
+.button {
+    /* display: inline-block; */
+    width: 10%;
+    color: white;
+    right: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.circle {
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    line-height: 28px; 
+    border-radius: 50%;
+    font-size: 1em;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.itemText {
+    padding: 1px 15px ;
+    font-size: 1.1em;
+    width: 76%;
+}
+
+.delete {
+    background-color: #F44336;
+    position: absolute;
+    transform: translateY(-50%) translateX(-150%);
+}
+
+.delete:hover {
+    background-color: #d42316;
+}
+
+.add {
+    background-color: #00c853;
+}
+
+.add:hover {
+    background-color: #00a833;
+}
+
+.disabled {
+    background-color: grey;
+}
+
+.add:hover,
+.delete:hover {
+    box-shadow: 0px 5px 6px rgba(0,0,0,0.4);
+}
+
+.Todo span {
+    cursor: pointer;
+}
+
+.Description { 
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.Description:focus,
+.Description:active { 
+    border: 1px solid #ccc;
+
+}

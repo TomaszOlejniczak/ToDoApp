@@ -1,0 +1,44 @@
+.TodoList {
+    list-style-type: none;
+    /* background-color: #34495e; */
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    height: calc( 100vh - 330px);
+    max-height: 400px;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 6px 0;
+}
+
+.TodoList::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: rgba(245, 245, 245, 0.5);
+}
+
+.TodoList::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: rgba(0,0,0,0);
+}
+
+.TodoList::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear, 
+									   40% 0%,
+									   75% 84%,
+									   from(rgb(65, 112, 156)),
+									   to(rgb(45, 92, 153)),
+									   color-stop(.6,rgb(84, 139, 222)));
+}
